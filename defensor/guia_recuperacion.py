@@ -1,3 +1,14 @@
+opcion = input("Elige: ")
+opciones = input("Elige (puedes poner varias ej: 1,3): ").replace(" ","").split(",")
+for opcion in opciones:
+    if opcion == "1":
+        print("\n[FACEBOOK] Ve a facebook.com/hacked -> Mi cuenta fue hackeada")
+    if opcion == "2":
+        print("\n[INSTAGRAM] Ve a instagram.com/hacked -> Mi cuenta fue hackeada")
+    if opcion == "3":
+        print("\n[GMAIL] Ve a myaccount.google.com -> Seguridad -> Actividad reciente")
+    if opcion == "4":
+        print("\n[WHATSAPP] Reinstala y verifica con SMS, activa 2 pasos")
 # v9.0 DEFENSOR - Guía de Recuperación para Víctimas
 print("=== v9.0 DEFENSOR - Guía de Recuperación ===\n")
 print("¿Qué le hackearon?")
@@ -42,3 +53,16 @@ print("- Corre antivirus en el celular/PC")
 print("- Cambia claves que eran iguales a la robada")
 print("- Revisa haveibeenpwned.com")
 print("\n¡Guía generada por v9.0 DEFENSOR!")
+nano defensor/guia_recuperacion.py
+opcion = input("Elige: ")
+opciones = input("Elige (puedes poner varias ej: 1,3): ").replace(" ","").split(",")
+for opcion in opciones:
+    if opcion == "1":
+        print("\n[FACEBOOK] Ve a facebook.com/hacked -> Mi cuenta fue hackeada")
+    if opcion == "2":
+        print("\n[INSTAGRAM] Ve a instagram.com/hacked -> Mi cuenta fue hackeada")
+    if opcion == "3":
+        print("\n[GMAIL] Ve a myaccount.google.com -> Seguridad -> Actividad reciente")
+    if opcion == "4":
+        print("\n[WHATSAPP] Reinstala y verifica con SMS, activa 2 pasos")
+
