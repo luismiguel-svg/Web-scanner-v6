@@ -1,0 +1,9 @@
+=== SCANNER v6.0 REPORT ===
+Target: http://demo.testfire.net
+Fecha: 2026-09-04 01:45:06.803403
+Server: Apache-Coyote/1.1
+Tech: Custom
+
+Hallazgos (2):
+[302] http://demo.testfire.net/admin - REDIRIGE
+[302] http://demo.testfire.net/admin/login.php - REDIRIGE
