@@ -1,9 +1,12 @@
-=== SCANNER v6.0 REPORT ===
-Target: http://demo.testfire.net
-Fecha: 2026-09-04 01:45:06.803403
-Server: Apache-Coyote/1.1
-Tech: Custom
+=== SCANNER v6.2 REPORT ===
+Target: testfire.net
+Fecha: 2026-09-04 03:07:44.483677
 
-Hallazgos (2):
-[302] http://demo.testfire.net/admin - REDIRIGE
-[302] http://demo.testfire.net/admin/login.php - REDIRIGE
+[PANEL] Hallazgos (2):
+[200] http://testfire.net/admin
+[200] http://testfire.net/admin/login.php
+
+[SUBDOMAIN] Hallazgos (3):
+demo.testfire.net -> 65.61.137.117
+www.testfire.net -> 65.61.137.117
+ftp.testfire.net -> 65.61.137.117
